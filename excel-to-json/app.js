@@ -50,6 +50,8 @@ app.post('/', (req, res, next) => {
     form.parse(req);
 });
 
-http.createServer(app).listen(3000, () => {
-    console.log('HTTP server listening on port ' + 3000);
+http.createServer(app).listen(4000, () => {
+    console.log('excel-to-json server listening on port ' + 4000);
 });
+
+module.exports = app;

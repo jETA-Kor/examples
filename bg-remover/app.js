@@ -57,6 +57,8 @@ app.post('/', (req, res, next) => {
     form.parse(req);
 });
 
-http.createServer(app).listen(3000, () => {
-    console.log('HTTP server listening on port ' + 3000);
+http.createServer(app).listen(4010, () => {
+    console.log('bg-remover server listening on port ' + 4010);
 });
+
+module.exports = app;
