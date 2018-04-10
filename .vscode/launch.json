@@ -19,6 +19,11 @@
             "request": "launch",
             "name": "mailer",
             "program": "${workspaceFolder}/mailer/app.js"
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "virtual-host",
+            "program": "${workspaceFolder}/virtual-host/app.js"
         }
     ]
 }
