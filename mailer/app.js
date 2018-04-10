@@ -80,5 +80,7 @@ app.post('/', (req, res, next) => {
 });
 
 http.createServer(app).listen(4020, () => {
-    console.log('HTTP server listening on port 4020');
+    console.log('mailer server listening on port 4020');
 });
+
+module.exports = app;

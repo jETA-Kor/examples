@@ -1,5 +1,5 @@
 {
-  "name": "mailerr",
+  "name": "mailer",
   "version": "1.0.0",
   "description": "Example to send an email",
   "main": "app.js",
