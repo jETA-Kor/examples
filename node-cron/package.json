@@ -1,0 +1,14 @@
+{
+  "name": "node-cron",
+  "version": "1.0.0",
+  "description": "Example to using node cron",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jETA",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.3.0"
+  }
+}
